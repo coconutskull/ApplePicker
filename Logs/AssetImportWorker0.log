@@ -612,3 +612,27 @@ Received Import Request.
 Start importing Assets/Apple.prefab using Guid(4f0eb67f560a847cbb152e3bf335982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30c299db392e2fc1b42d10a16764e6d') in 0.167387 seconds 
   Import took 0.171155 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 177.882985 seconds.
+  path: Assets/Mat_Basket.mat
+  artifactKey: Guid(65fcbc78bda46432f847f55e209710d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat_Basket.mat using Guid(65fcbc78bda46432f847f55e209710d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd90b88a41a06a8b872fe4c2428d4da1') in 0.074598 seconds 
+  Import took 0.081730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.449503 seconds.
+  path: Assets/Basket.prefab
+  artifactKey: Guid(541f86df54d154961aa5c65d44846874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basket.prefab using Guid(541f86df54d154961aa5c65d44846874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc549a4c7accc945477a903a9b605f7') in 0.038887 seconds 
+  Import took 0.045801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.117929 seconds.
+  path: Assets/Mat_Basket.mat
+  artifactKey: Guid(65fcbc78bda46432f847f55e209710d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat_Basket.mat using Guid(65fcbc78bda46432f847f55e209710d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76acdcaf3325e990deafb7eb5932dc84') in 0.012548 seconds 
+  Import took 0.014898 seconds .
+
