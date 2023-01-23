@@ -482,3 +482,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1450.727494 seconds.
+  path: Assets/Mat_Wood.mat
+  artifactKey: Guid(3c1fc532cffe34cb6a636a07e1178070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat_Wood.mat using Guid(3c1fc532cffe34cb6a636a07e1178070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43aaefa2909cdb523babe07de501c99f') in 1.139024 seconds 
+  Import took 1.149068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.210592 seconds.
+  path: Assets/Mat_Leaves.mat
+  artifactKey: Guid(4824abdb6e0de48bc949d870b501330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat_Leaves.mat using Guid(4824abdb6e0de48bc949d870b501330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc0d2fcb69d33bd16578d752a3dedc2') in 0.018158 seconds 
+  Import took 0.021610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.156661 seconds.
+  path: Assets/AppleTree.prefab
+  artifactKey: Guid(fd83a0a27de2945a3920c627426f1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AppleTree.prefab using Guid(fd83a0a27de2945a3920c627426f1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec05ce794354560e246fb364332b7ad') in 0.256987 seconds 
+  Import took 0.263298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.035949 seconds.
+  path: Assets/Mat_Leaves.mat
+  artifactKey: Guid(4824abdb6e0de48bc949d870b501330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat_Leaves.mat using Guid(4824abdb6e0de48bc949d870b501330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4772fee566c2ccf1af6c72eb79aed25') in 0.008410 seconds 
+  Import took 0.011198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Mat_Wood.mat
+  artifactKey: Guid(3c1fc532cffe34cb6a636a07e1178070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat_Wood.mat using Guid(3c1fc532cffe34cb6a636a07e1178070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef3d01f246e79ca498d099e4718f7a') in 0.008222 seconds 
+  Import took 0.010828 seconds .
+
