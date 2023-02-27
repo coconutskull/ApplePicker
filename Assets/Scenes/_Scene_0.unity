@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 2145347999}
   - component: {fileID: 2145347998}
   - component: {fileID: 2145347997}
+  - component: {fileID: 2145348000}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -299,6 +300,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145348000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145347996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5694c22237e446989069a1206c7fee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 1531083939635525479, guid: 541f86df54d154961aa5c65d44846874, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1001 &7144559649841302169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -316,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 217251862290577006, guid: 4f0eb67f560a847cbb152e3bf335982d, type: 3}
     - target: {fileID: 280235057080670407, guid: fd83a0a27de2945a3920c627426f1c02, type: 3}
       propertyPath: changeDirChance
-      value: 1
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 372310294785885461, guid: fd83a0a27de2945a3920c627426f1c02, type: 3}
       propertyPath: m_RootOrder
@@ -373,6 +390,10 @@ PrefabInstance:
     - target: {fileID: 3471502894694808283, guid: fd83a0a27de2945a3920c627426f1c02, type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3471502894694808283, guid: fd83a0a27de2945a3920c627426f1c02, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4273338632336609033, guid: fd83a0a27de2945a3920c627426f1c02, type: 3}
       propertyPath: m_Layer
