@@ -58,4 +58,14 @@ public class AppleTree : MonoBehaviour
             speed *= -1; // Change direction
         }
     }
+
+	void OnCollisionEnter (Collision coll)
+	{
+		//find out what hit this basket
+		GameObject collidedWith = coll.gameObject;
+		if (collidedWith.CompareTag("Apple"))
+			{
+				Destroy(collidedWith);
+			}
+	}
 }
