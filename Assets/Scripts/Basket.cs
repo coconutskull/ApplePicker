@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Basket : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public ScoreCounter scoreCounter;
     void Start()
     {
-        
+        //find GameObject named ScoreCounter in Scene Hierarchy
+        GameObject scoreGo = GameObject.Find("ScoreCounter");
+        //Get the ScoreCounter (script) component of scoreGO
+        scoreCounter = scoreGo.GetComponent<ScoreCounter>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 mousePos2D = Input.mousePosition; //Get current screen position from input for mouse
@@ -30,4 +33,14 @@ public class Basket : MonoBehaviour
         this.transform.position = pos;
 
     }
+
+	void OnCollisionEnter( Collision coll){
+		//Find out what hits basket
+		GameObject collidedWith = coll.gameObject;
+		if (collidedWith.CompareTag("Apple")){
+			Destroy(collidedWith);
+		//increase score
+			scoreCounter.score +=100;
+		}
+	}
 }
