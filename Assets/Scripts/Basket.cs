@@ -9,9 +9,9 @@ public class Basket : MonoBehaviour
     void Start()
     {
         //find GameObject named ScoreCounter in Scene Hierarchy
-        GameObject scoreGo = GameObject.Find("ScoreCounter");
+        GameObject scoreGO = GameObject.Find("ScoreCounter");
         //Get the ScoreCounter (script) component of scoreGO
-        scoreCounter = scoreGo.GetComponent<ScoreCounter>();
+        scoreCounter = scoreGO.GetComponent<ScoreCounter>();
     }
 
     void Update()
@@ -40,7 +40,8 @@ public class Basket : MonoBehaviour
 		if (collidedWith.CompareTag("Apple")){
 			Destroy(collidedWith);
 		//increase score
-			scoreCounter.score +=100;
+			scoreCounter.score += 100;
+			HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
 		}
 	}
 }
